@@ -1,7 +1,7 @@
 #Functions
+Sys.setenv(RETICULATE_PYTHON = "/home/jovyan/my-conda-envs/myenv/bin/python")
 library(reticulate)
-use_condaenv('myenv')
-
+py_config()
 
 library(scran)
 library(scater)
