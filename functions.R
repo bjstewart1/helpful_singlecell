@@ -1,9 +1,10 @@
 #Functions
+library(reticulate)
+use_virtualenv("myenv")
+
 library(scran)
 library(scater)
 library(cowplot)
-library(reticulate)
-#use_python("/opt/conda/envs/teichlab/bin/python3") #this broke
 library(pheatmap)
 library(DropletUtils)
 library(igraph)
