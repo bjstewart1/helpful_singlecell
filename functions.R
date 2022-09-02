@@ -1,6 +1,7 @@
 #Functions
 library(reticulate)
-use_virtualenv("myenv")
+use_condaenv('myenv')
+
 
 library(scran)
 library(scater)
